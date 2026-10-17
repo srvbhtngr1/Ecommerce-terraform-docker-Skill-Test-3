@@ -1,31 +1,41 @@
 # Screenshots
 
-Place your evidence screenshots in this folder and name them in order, for example:
+Evidence screenshots for the assignment, numbered to match the figures in the report (docs folder).
 
-| File name | What to capture |
-|---|---|
-| 01-tool-versions.png | docker, terraform, aws, node versions |
-| 02-aws-identity.png | aws sts get-caller-identity |
-| 03-docker-login.png | docker login succeeded |
-| 04-project-structure.png | Project folder in the editor |
-| 05-docker-compose-build.png | docker compose up --build output |
-| 06-docker-ps-local.png | Five containers running locally |
-| 07-curl-local.png | curl on ports 3001-3004 |
-| 08-frontend-local.png | http://localhost:3000 |
-| 09-docker-push.png | docker push output |
-| 10-dockerhub-repos.png | Five public repos on Docker Hub |
-| 11-terraform-init.png | terraform init |
-| 12-terraform-validate.png | terraform validate |
-| 13-terraform-plan.png | terraform plan summary |
-| 14-terraform-apply.png | terraform apply and outputs |
-| 15-aws-vpc-subnet.png | VPC and subnet in console |
-| 16-aws-security-group.png | Security group inbound rules |
-| 17-aws-ec2-running.png | EC2 instance running |
-| 18-frontend-public.png | Frontend is Live on the public IP |
-| 19-frontend-status-up.png | All four backends UP |
-| 20-docker-ps-ec2.png | docker ps on EC2 |
-| 21-curl-ec2.png | curl backends on EC2 |
-| 22-user-data-log.png | /var/log/user-data.log |
-| 23-terraform-destroy.png | terraform destroy complete |
-
-The full numbered list (33 figures) is in `docs/Saurabh_Bhatnagar_Terraform_Docker_Assignment_Report.docx`.
+- Figure 1: `fig01-architecture-diagram.png`
+- Figure 2: `fig02-tool-versions.png`
+- Figure 3: `fig03-aws-identity.png`
+- Figure 4: `fig04-docker-login.png`
+- Figure 5: `fig05-project-structure.png`
+- Figure 6: `fig06-backend-server-js.png`
+- Figure 7: `fig07-frontend-server-js.png`
+- Figure 8: `fig08-dockerfiles-a.png`
+- Figure 8: `fig08-dockerfiles-b.png`
+- Figure 9: `fig09-docker-compose-build.png`
+- Figure 10: `fig10-docker-ps-local.png`
+- Figure 11: `fig11-curl-local.png`
+- Figure 12: `fig12-frontend-local-browser.png`
+- Figure 13: `fig13-docker-push-a.png`
+- Figure 13: `fig13-docker-push-b.png`
+- Figure 14: `fig14-dockerhub-repos.png`
+- Figure 15: `fig15-dockerhub-repo-tag.png`
+- Figure 16: `fig16-main-tf-a.png`
+- Figure 16: `fig16-main-tf-b.png`
+- Figure 17: `fig17-user-data-tpl.png`
+- Figure 18: `fig18-tfvars.png`
+- Figure 19: `fig19-terraform-init.png`
+- Figure 20: `fig20-terraform-validate.png`
+- Figure 21: `fig21-terraform-plan.png`
+- Figure 22: `fig22-terraform-apply.png`
+- Figure 23: `fig23-aws-vpc-subnet-a.png`
+- Figure 23: `fig23-aws-vpc-subnet-b.png`
+- Figure 24: `fig24-aws-security-group.png`
+- Figure 25: `fig25-aws-ec2-running.png`
+- Figure 26: `fig26-terraform-output.png`
+- Figure 27: `fig27-frontend-public-ip.png`
+- Figure 28: `fig28-frontend-status-up.png`
+- Figure 29: `fig29-docker-ps-ec2.png`
+- Figure 30: `fig30-curl-ec2.png`
+- Figure 31: `fig31-logs-ec2.png`
+- Figure 32: `fig32-backend-blocked-3001.png`
+- Figure 33: `fig33-terraform-destroy.png`
