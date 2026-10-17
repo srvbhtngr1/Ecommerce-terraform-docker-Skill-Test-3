@@ -1,0 +1,23 @@
+# Local testing only. Usage: docker compose up --build -d
+services:
+  user-service:
+    build: ./services/user-service
+    container_name: user-service
+    ports: ["3001:3001"]
+  products-service:
+    build: ./services/products-service
+    container_name: products-service
+    ports: ["3002:3002"]
+  orders-service:
+    build: ./services/orders-service
+    container_name: orders-service
+    ports: ["3003:3003"]
+  cart-service:
+    build: ./services/cart-service
+    container_name: cart-service
+    ports: ["3004:3004"]
+  frontend:
+    build: ./services/frontend
+    container_name: frontend
+    ports: ["3000:3000"]
+    depends_on: [user-service, products-service, orders-service, cart-service]

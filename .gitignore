@@ -1,0 +1,18 @@
+node_modules/
+npm-debug.log
+.DS_Store
+.vscode/
+.idea/
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+.terraform.lock.hcl.bak
+*.pem
+*.key
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform/
